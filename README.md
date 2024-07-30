@@ -1,6 +1,6 @@
 # FingerVector
 # *Note* 
-Accuracy is low.
+#Accuracy is low.
 If you are using a webcam with a USB connection, set the number in cv2.VideoCapture on line 98 to 1.
 If the camera originally came with the computer, change it to 0.
 
