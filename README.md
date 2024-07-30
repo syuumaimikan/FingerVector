@@ -8,5 +8,3 @@ If the camera originally came with the computer, change it to 0.
 1. place all of your hands on the camera.
 2. Point your index finger (☝️) to the right or left of the camera frame to see the orientation on the terminal.
 3. If you put your thumb in this pose (👍️), it will respond to your thumb instead of your index finger.
-
-Translated with DeepL.com (free version)
