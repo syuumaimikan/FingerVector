@@ -21,13 +21,6 @@ def classify_direction(vector):
     else:
         return "下" if y > 0 else "上"
 
-# グーの検出関数
-def is_fist(tips_pixel, bases_pixel, distance_threshold=80):
-    if len(tips_pixel) < 5 or len(bases_pixel) < 5:
-        return False
-    distances = [np.linalg.norm(tip - base) for tip, base in zip(tips_pixel, bases_pixel)]
-    return all(distance < distance_threshold for distance in distances)
-
 # ピクセル座標に変換する関数
 def to_pixel_coordinates(landmarks, width, height):
     return [np.array([lm.x * width, lm.y * height, lm.z * width]) for lm in landmarks]
