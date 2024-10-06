@@ -88,7 +88,7 @@ def detect_pose_and_direction(image, hands):
 
 # ウェブカメラからのリアルタイム手の検出
 def detect_from_webcam():
-    cap = cv2.VideoCapture(1)  # ウェブカメラを使用してリアルタイムキャプチャ
+    cap = cv2.VideoCapture(0)  # ウェブカメラを使用してリアルタイムキャプチャ
 
     hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_confidence=0.7, min_tracking_confidence=0.7)
 
